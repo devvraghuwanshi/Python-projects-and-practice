@@ -16,3 +16,11 @@ print(len(string))
 text = "Check if this string includes free"
 print("free" in text)
 
+str = "This is example of accessing string using index"
+print(str)
+
+# syntax : stringName[index]
+print(str[0]) #Gives character at index
+
+# syntax : stringName[starting index(inclusive) : end index(exclusive)]
+print(str[0:4]) #Give characters in range 
