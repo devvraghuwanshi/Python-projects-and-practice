@@ -1,0 +1,14 @@
+# Ques-2
+# *****
+# *****
+# *****
+# *****
+# *****
+
+rows = 5
+coloumns = 5
+
+for i in range(1,rows+1):
+    for j in range(1,coloumns+1):
+        print("*",end="")
+    print()
